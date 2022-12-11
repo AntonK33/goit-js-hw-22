@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@parcel/transformer-sass": "^2.8.1",
     "@swc/helpers": "^0.4.14",
     "@vimeo/player": "^2.18.0",
     "lodash.throttle": "^4.1.1",
@@ -7,7 +8,9 @@
     "simplelightbox": "^2.11.0"
   },
   "devDependencies": {
-    "parcel": "^2.8.1"
+    "parcel": "^2.8.1",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
   },
   "name": "goit-js-hw-22",
   "version": "1.0.0",
@@ -24,6 +27,6 @@
   "bugs": {
     "url": "https://github.com/AntonK33/goit-js-hw-22/issues"
   },
-  "homepage": "https://github.com/AntonK33/goit-js-hw-22#readme",
+  "homepage": "https://github.com/AntonK33/goit-js-hw-22",
   "description": ""
 }
